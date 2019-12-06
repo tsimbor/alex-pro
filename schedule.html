@@ -9,6 +9,7 @@
      alexpro, fitness, zumba, bachata, trx, pilates, cyclic, gym, zumba gold, alex Uzhhorod, functional training, fitness mix, trainer Uzhhorod, Uzhgorod gym">  
     <title>AlexPro|Розклад - формула вашого успіху!</title>
     <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/layouts/side-menu.css">
     
     <!--[if lte IE 8]>
         <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/grids-responsive-old-ie-min.css">
@@ -28,12 +29,13 @@
         <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" /> 
 </head>
 <body>
+        <div id="layout" class="">
 
 <div class="header">
     <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
         <a class="pure-menu-heading" href="index.html">Alex Pro</a>
         <i class="fa fa-phone i"></i>
-        <b class="number-color">Тел: 066-64-64-777; 098-65-65-777</b>
+        <b class="number-color">Тел: 066-64-64-777;</b>
 
         <ul class="pure-menu-list">
             <li class="pure-menu-item"><a href="index.html" class="pure-menu-link">Головна</a></li>
@@ -45,10 +47,32 @@
     </div>
 </div>
 
+<a href="#menu" id="menuLink" class="menu-link">
+        <!-- Hamburger icon -->
+        <span></span>
+    </a>
+    
+    <div id="menu" class="">
+        <div class="pure-menu">
+            <a class="pure-menu-heading" href="index.html">AlexPro</a>
+    
+            <ul class="pure-menu-list">
+                <li class="pure-menu-item"><a href="coach.html" class="pure-menu-link">Тренера</a></li>
+                <li class="pure-menu-item menu-item-divided pure-menu-selected"><a href="schedule.html" class="pure-menu-link">Графік Тренувань</a></li>
+    
+                <li class="pure-menu-item">
+                    <a href="price.html" class="pure-menu-link">Прайс Лист</a>
+                </li>
+    
+                <li class="pure-menu-item"><a href="gallery.html" class="pure-menu-link">Галерея фото</a></li>
+            </ul>
+        </div>
+    </div>
+
 <div class="splash- headbg">
 
 </div>
-
+<div id="main">
 <div class="content-wrapper social-links content-body">
     <div class="content">
         <h2 class="content-head is-center">Віддаєте перевагу тренуватися в колективі? Оцініть групові заняття у фітнес-клубі AlexPro!</h2>
@@ -61,146 +85,130 @@
         </h3>
     </div>
         
-        <strong><table class="pure-table pure-table-bordered schedule-table">
-                <thead class="price-table">
-                        <tr>
-                            <th>#</th>
-                            <th>Понеділок</th>
-                            <th>Вівторок</th>
-                            <th>Середа</th>
-                            <th>Четвер</th>
-                            <th>П'ятниця</th>
-                            <th>Субота</th>
-                            <th>Неділя</th>
-                        </tr>
-                    </thead>
+    <strong><table class="pure-table pure-table-bordered schedule-table">
+
+        <thead class="price-table">
+            <tr>
+                <th scope="col">Час:</th>
+                <th scope="col">Понеділок</th>
+                <th scope="col">Вівторок</th>
+                <th scope="col">Середа</th>
+                <th scope="col">Четвер</th>
+                <th scope="col">Пятнция</th>
+                <th scope="col">субота</th>
+                <th scope="col">Неділя</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td aria-label="Час:">9:00</td>
+                <td aria-label="Понеділок">FITNESS MIX</td>
+                <td></td>
+                <td aria-label="Середа">FITNESS MIX</td>
+                <td></td>
+                <td aria-label="Пятнция">FITNESS MIX	</td>
+                <td></td>
+                <td></td>   
+            </tr>
+            <tr>  
+                <td aria-label="Час:">11:00</td>
+                <td aria-label="Понеділок">Pilates</td>
+                <td></td>
+                <td aria-label="Середа">Pilates</td>
+                <td></td>
+                <td aria-label="Пятнция">Pilates</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                    
+                <td aria-label="Час:">12:00</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td aria-label="Субота">Zumba fintess</td>
+                <td></td>
+            </tr>
+            <tr>
+                    
+                <td aria-label="Час:">12:30</td>
+                <td aria-label="Понеділок">TRX</td>
+                <td></td>
+                <td aria-label="Середа">TRX</td>
+                <td></td>
+                <td aria-label="Пятнция">TRX</td>
+                <td></td>
+                <td></td>
+            </tr>
                 
-                    <tbody>
-                        <tr>
-                            <td>9:00</td>
-                            <td>FITNESS MIX</td>
-                            <td></td>
-                            <td>FITNESS MIX</td>
-                            <td></td>
-                            <td>FITNESS MIX</td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>10:00</td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>11:00</td>
-                            <td>Pilates</td>
-                            <td></td>
-                            <td>Pilates</td>
-                            <td></td>
-                            <td>Pilates</td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>12:00</td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td>Zumba fintess</td>
-                            <td></td>
-                         </tr>
-                         <tr>
-                            <td>12:30</td>
-                            <td>TRX</td>
-                            <td></td>
-                            <td>TRX</td>
-                            <td></td>
-                            <td>TRX</td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                         <tr>
-                             <td>13:00-16:00</td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                      
-                                    <tr>
-                                            <td>17:00</td>
-                                            <td>Zumba gold</td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td>Zumba gold</td>
-                                            <td></td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                                <td>18:00</td>
-                                                <td>Pilates</td>
-                                                <td>САЙКЛ</td>
-                                                <td>Pilates</td>
-                                                <td>САЙКЛ</td>
-                                                <td>Pilates</td>
-                                                <td></td>
-                                                <td></td>
-                                            </tr>
-                                            <tr>
-                                                    <td>19:00</td>
-                                                    <td>САЙКЛ</td>
-                                                    <td></td>
-                                                    <td>САЙКЛ</td>
-                                                    <td></td>
-                                                    <td>САЙКЛ</td>
-                                                    <td></td>
-                                                    <td></td>
-                                            </tr>
-                                            <tr>
-                                                    <td>18:30</td>
-                                                    <td></td>
-                                                    <td>Bachata</td>
-                                                    <td></td>
-                                                    <td>Bachata</td>
-                                                    <td></td>
-                                                    <td></td>
-                                                    <td></td>
-                                            </tr>
-                                            <tr>
-                                                    <td>19:30</td>
-                                                    <td></td>
-                                                    <td>Zumba fitness</td>
-                                                    <td></td>
-                                                    <td>Zumba fitness</td>
-                                                    <td></td>
-                                                    <td></td>
-                                                    <td></td>
-                                            </tr>
-                                                <tr>
-                                                        <td>20:00</td>
-                                                        <td>Функціональний тренінг</td>
-                                                        <td></td>
-                                                        <td>Функціональний тренінг</td>
-                                                        <td></td>
-                                                        <td>Функціональний тренінг</td>
-                                                        <td></td>
-                                                        <td></td>
-                                                </tr>
-                                                    
-                    </tbody>
-        </table>
-        </strong>
+            <td aria-label="Час:">17:00</td>
+            <td aria-label="Понеділок">Zumba gold</td>
+            <td></td>
+            <td></td>
+            <td>добре</td>
+            <td aria-label="Пятнция">Zumba gold</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+                    
+            <td aria-label="Час:">18:00</td>
+            <td aria-label="Понеділок">Pilates</td>
+            <td aria-label="Вівторок">САЙКЛ</td>
+            <td aria-label="Середа">Pilates</td>
+            <td aria-label="Четвер">САЙКЛ</td>
+            <td aria-label="Пятнция">Pilates</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+                    
+            <td aria-label="Час:">18:30</td>
+            <td></td>
+            <td aria-label="Вівторок">Bachata</td>
+            <td></td>
+            <td aria-label="Четвер">Bachata</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+                    
+            <td aria-label="Час:">19:00</td>
+            <td aria-label="Понеділок">САЙКЛ</td>
+            <td></td>
+            <td aria-label="Час:">САЙКЛ</td>
+            <td></td>
+            <td aria-label="Пятнция">САЙКЛ</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+                    
+            <td aria-label="Час:">19:30</td>
+            <td></td>
+            <td aria-label="Вівторок">Zumba fitness</td>
+            <td></td>
+            <td aria-label="Четвер">Zumba fitness</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+                    
+            <td aria-label="Час:">20:00</td>
+            <td aria-label="Понеділок">Функціональний тренінг</td>
+            <td></td>
+            <td aria-label="Середа">Функціональний тренінг</td>
+            <td></td>
+            <td aria-label="Пятнция">Функціональний тренінг</td>
+            <td></td>
+            <td></td>
+        </tr>
+        </tbody>
+    </table></strong>
         
             <p>
                 <b>FITNESS MIX - </b>Фітнес мікс - це синтез різних видів фітнесу, які комбіновано застосовуються в умовах одного тренування або чергуються від заняття до заняття. 
@@ -281,6 +289,10 @@
     </div>
 
 </div>
+</div>
+</div>
+
+<script src="js/ui.js"></script>
 
 
 </body>
