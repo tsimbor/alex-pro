@@ -341,7 +341,7 @@ a.pure-button-primary {
      text-align: center;
  }
 
-.price-table th {
+.schedule-table th {
     background-color:#fe5014;
     text-align: center;
 }
@@ -425,19 +425,19 @@ table td {
 }
 
 @media screen and (max-width: 650px) {
-    table thead {
+    table.super-table thead.super-table {
         display: none;
     }
-    table tr {
+    table.super-table tr {
         border-bottom: 3px solid #ddd;
         display: block;
     }
-    table td {
+    table.super-table td {
         border-bottom: 1px solid #ddd;
         display: block;
         text-align: right;
     }
-    table td:before {
+    table.super-table td:before {
         content: attr(aria-label);
         float: left;
     }
