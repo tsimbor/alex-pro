@@ -356,8 +356,9 @@ a.pure-button-primary {
 }
 
 .imgstyle {
-    margin-left: 40px;
+    margin-left: 150px;
     text-align: center;
+   max-width: 250px;
 }
 
 .ml-2 {
@@ -429,11 +430,11 @@ table td {
         display: none;
     }
     table.super-table tr {
-        border-bottom: 3px solid #ddd;
+        border-bottom: 5px solid #ddd;
         display: block;
     }
     table.super-table td {
-        border-bottom: 1px solid #ddd;
+        border-bottom: 5px solid #ddd;
         display: block;
         text-align: right;
     }
